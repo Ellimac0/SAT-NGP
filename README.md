@@ -63,8 +63,8 @@ cd ..
 ### Getting the repo
 
 ```bash
-git clone https://github.com/Ellimac0/clean_igarss2024.git
-cd clean_igarss2024/
+git clone https://github.com/Ellimac0/SAT-NGP.git
+cd SAT-NGP/
 # https://github.com/rusty1s/pytorch_scatter
 ```
 
@@ -81,7 +81,7 @@ cd ../..
 ### Install requirements
 
 ```bash
-cd clean_igarss
+cd SAT-NGP
 pip install -r requirements.txt
 ```
 
@@ -98,7 +98,7 @@ unzip dataset.zip -d dataset
 
 ## Train
 ```bash
-# in clean_igarss2024
+# in SAT-NGP
 # may take a few minutes the first time, as the backend is compiled at .cache/torch_extensions/py38_cu117/ 
 bash scripts/run_sat_ngp.sh data/dataset JAX_XXX
 ```
