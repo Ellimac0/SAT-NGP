@@ -100,7 +100,7 @@ unzip dataset.zip -d dataset
 ```bash
 # in SAT-NGP
 # may take a few minutes the first time, as the backend is compiled at .cache/torch_extensions/py38_cu117/ 
-bash scripts/run_sat_ngp.sh data/dataset JAX_XXX
+bash scripts/run_sat_ngp.sh data/dataset JAX_XXX 60000 1024
 ```
 
 
