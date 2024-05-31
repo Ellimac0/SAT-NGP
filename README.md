@@ -24,6 +24,16 @@ and [Bruno Vallet](https://www.umr-lastig.fr/bruno-vallet/) <sup>2</sup>* \
 
 ## Environment Setup
 
+### Tested configurations :
+
+| CPU/GPU         |    runs     |         |         |
+|-----------------|---------|---------|---------|
+| AMD EPYC Milan 7713 / NVIDIA A100   | ✅      | 
+| Intel Xeon E5-2698  / NVIDIA V100   | ❌      |  
+| AMD EPYC 7742 / NVIDIA A100         | ✅      | 
+| Intel Core i512400F / RTX 4060Ti    | ✅      | 
+| AMD EPYC Milan 7713 / NVIDIA A40    | ✅      | 
+
 ### Create conda env
 ```bash
 conda create -p satngp -y python=3.8
