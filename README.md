@@ -26,8 +26,8 @@ and [Bruno Vallet](https://www.umr-lastig.fr/bruno-vallet/) <sup>2</sup>* \
 
 ### Tested configurations :
 
-| CPU/GPU         |    runs     |         |         |
-|-----------------|---------|---------|---------|
+| CPU/GPU         |    runs     |     
+|-----------------|---------|
 | AMD EPYC Milan 7713 / NVIDIA A100   | ✅      | 
 | Intel Xeon E5-2698  / NVIDIA V100   | ❌      |  
 | AMD EPYC 7742 / NVIDIA A100         | ✅      | 
