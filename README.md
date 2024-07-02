@@ -15,7 +15,7 @@
 Official implementation of **SAT-NGP**, as presented in our paper: \
 \
 **SAT-NGP : Unleashing Neural Graphics Primitives for Fast Relightable Transient-Free 3D reconstruction from Satellite Imagery (IGARSS 2024)** \
-*[Camille Billouard](https://arxiv.org/search/cs?searchtype=author&query=Billouard,+C) <sup>1</sup>, [Dawa Derksen](https://www.semanticscholar.org/author/Dawa-Derksen/8090472) <sup>1</sup>, 
+*[Camille Billouard](https://fr.linkedin.com/in/camille-b-3v1415926) <sup>1</sup>, [Dawa Derksen](https://www.semanticscholar.org/author/Dawa-Derksen/8090472) <sup>1</sup>, 
 [Emmanuelle Sarrazin](https://ieeexplore.ieee.org/author/37086503757) <sup>1</sup>
 and [Bruno Vallet](https://www.umr-lastig.fr/bruno-vallet/) <sup>2</sup>* \
 <sup>1</sup>CNES, <sup>2</sup>Univ Gustave Eiffel, ENSG, IGN, LASTIG, F-94160 
