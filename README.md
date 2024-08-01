@@ -22,7 +22,35 @@ and [Bruno Vallet](https://www.umr-lastig.fr/bruno-vallet/) <sup>2</sup>* \
 
 
 
+
+
+#What's new here? ( 2024. 08. 01) 
+
+## Updates
+
+### Recent Fixes and Improvements
+
+#### 1. Fixed `ZeroDivisionError` in `dsmr.py`
+
+A `ZeroDivisionError` was occurring in the `mean_std` function within `dsmr.py` due to a division by zero when the `count` value was zero. This issue has been resolved by adding checks and adjustments for zero values. The relevant section of `dsmr.py` has been updated as follows:
+
+- Added a check to replace `count` with a small value if it is zero.
+- Added a small value to `sigu` and `sigv` if they are zero to avoid division by zero.
+
+#### 2. Updated `torch.cuda.amp.autocast` Usage
+
+The `torch.cuda.amp.autocast` function has been deprecated and replaced with `torch.amp.autocast('cuda', args...)`. The relevant sections in `trainer.py` have been updated accordingly to use the new function signature:
+
+- Replaced `torch.cuda.amp.autocast` with `torch.amp.autocast('cuda', args...)`.
+
+#### 3. Updated to CUDA Version 12.2
+
+The code has been updated to support CUDA version 12.2. Ensure you have the appropriate CUDA version installed in your environment to utilize these changes effectively.
+
+also, I checked that the code is working on Intel 19010900kf / NVIDIA RTX3070, CUDA 12.2 too. 
+
 ## Environment Setup
+
 
 ### Tested configurations :
 
@@ -33,6 +61,7 @@ and [Bruno Vallet](https://www.umr-lastig.fr/bruno-vallet/) <sup>2</sup>* \
 | AMD EPYC 7742 / NVIDIA A100         | ✅      | 
 | Intel Core i512400F / RTX 4060Ti    | ✅      | 
 | AMD EPYC Milan 7713 / NVIDIA A40    | ✅      | 
+| Intel 19010900kf / NVIDIA RTX3070   | ✅      |
 
 ### Create conda env
 ```bash
@@ -151,4 +180,9 @@ the contributors of :
 
 and authors of : 
 * [SatNerf](https://github.com/centreborelli/satnerf) 
+
+
+
+----
+
 
