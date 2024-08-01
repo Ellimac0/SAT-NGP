@@ -22,10 +22,9 @@ and [Bruno Vallet](https://www.umr-lastig.fr/bruno-vallet/) <sup>2</sup>* \
 
 
 
-## Environment Setup
 
 
-#### What's new here? ( 2024. 08. 01) 
+#What's new here? ( 2024. 08. 01) 
 
 ## Updates
 
@@ -48,6 +47,10 @@ The `torch.cuda.amp.autocast` function has been deprecated and replaced with `to
 
 The code has been updated to support CUDA version 12.2. Ensure you have the appropriate CUDA version installed in your environment to utilize these changes effectively.
 
+also, I checked that the code is working on Intel 19010900kf / NVIDIA RTX3070, CUDA 12.2 too. 
+
+## Environment Setup
+
 
 ### Tested configurations :
 
@@ -58,6 +61,7 @@ The code has been updated to support CUDA version 12.2. Ensure you have the appr
 | AMD EPYC 7742 / NVIDIA A100         | ✅      | 
 | Intel Core i512400F / RTX 4060Ti    | ✅      | 
 | AMD EPYC Milan 7713 / NVIDIA A40    | ✅      | 
+| Intel 19010900kf / NVIDIA RTX3070   | ✅      |
 
 ### Create conda env
 ```bash
